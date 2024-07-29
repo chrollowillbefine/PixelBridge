@@ -150,7 +150,7 @@ contract BridgePixel is Ownable, ReentrancyGuard {
     // Event, whic is emitted after depositin tokens.
     event NativeBridgeTrasnfer(address indexed _initiator, uint256 _value);
 
-    **
+    /**
      * @dev Set `pixelBridgeToken`.
      *
      */
